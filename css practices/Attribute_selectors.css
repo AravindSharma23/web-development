@@ -1,0 +1,26 @@
+div{
+    height: 800px;
+    width : 800px;
+    border :3px solid red;
+   
+   
+}
+/* span[title~="h"]{
+    background: yellow; // It makes a bg color as yellow where the title used in span tags. 
+    Using tilt(~) for matching the attribute values.
+}
+
+/*
+[class^="content"]{
+    background: pink; // where it matches in a class name whether the starting value is same as the selected attribute//
+} 
+*/
+
+/*
+[class$="title"]{
+    background-color: aqua; // If the ending value of class is matches to the selected attribute.
+}
+*/
+[class*="subtitle"]{
+    background-color: blueviolet;
+}
