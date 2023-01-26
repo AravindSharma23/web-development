@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+div{
+    height: 600px;
+    width:600px;
+    border:5px solid green;
+    padding:6px;
+    margin:15px;
+    
+}
+/* .p-container>p::first-letter{
+    font-size: 30px;
+    color: blueviolet;
+
+} */
+/*
+.p-container>p::first-line{
+    background-color: aqua;
+}
+*/
+.p-container>h1::after{
+    content: ":;)";
+}
+.p-container>h1::before{
+    content:"[^]"
+}
+::selection{
+ background: green;
+ color:blueviolet;
+}
+
