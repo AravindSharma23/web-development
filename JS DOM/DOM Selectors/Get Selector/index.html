@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementById</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 id="heading">🤗Sqrt App🤗</h2>
+    <p id="response"></p>
+        <input type="text"  placeholder="Enter here!🤔" class="input-num" id="input-num">
+       <!-- <button class="input-btn">submit😎</button> -->
+        <button onclick="calc()">Save</button>
+
+
+
+
+   <script>
+    function calc() {
+    let val = document.getElementById("input-num").value;
+    document.getElementById('response').innerHTML =val*val;
+    }
+   </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incrementor and Decrementor</title>
+    <link rel="stylesheet" href="inc.css">
+</head>
+<body>
+    <h2 id="heading">💡Incrementor and Decrementor💡</h2>
+    <div class="container">
+   <div class="wrapper">
+    <span class="minus">-</span>
+    <span class="num">01</span>
+    <span class="plus">+</span>
+   </div>
+</div>
+
+    <script>
+      const plus = document.querySelector(".plus"),
+      minus = document.querySelector(".minus"),
+      num=document.querySelector(".num");
+
+
+    //Incrementor
+
+      let a = 1;
+      plus.addEventListener("click", () =>{
+        a++;
+        a = (a<10)? "0"+a : a;
+        num.innerText = a;
+        
+      });
+
+    // Decrementor
+
+    minus.addEventListener("click", () =>{
+        if(a>1){
+            a--;
+        }
+        a = (a<10)? "0"+a : a;
+        num.innerText = a;
+        
+      });
+
+
+    </script>
+</body>
+</html>

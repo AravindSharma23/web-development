@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+h2{
+    text-align: center;
+    background-color: blueviolet;
+    padding:8px;
+}
+.input-btn{
+    background-color:red;
+    border:blue solid 1px;
+    border-radius: 6px;
+    padding:5px;
+    color: #fff;
+    
+}
+input{
+    margin-top:20px;
+    border-color: blue;
+    margin-left: 550px;
+    padding:5px;
+    padding-left: 20px;
+    outline:none;
+}
+
