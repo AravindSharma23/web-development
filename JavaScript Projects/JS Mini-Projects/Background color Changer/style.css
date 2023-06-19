@@ -1,0 +1,13 @@
+.container{ /* Centering button */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;  /*Responsive height */
+}
+
+#bgColor{  /* Centering <p> tag */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}

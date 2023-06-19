@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* background-color: #76b5c5; */
+}
+body{
+    background-color:#76b5c5 ;
+}
+
+#header-txt h1{
+    margin-top:10px;
+    text-align: center;
+    animation: colorchange 5s infinite alternate;
+
+}
+.converter-container{
+    border-radius: 15px;
+    background-color:#cce7e8 ;
+    width:450px;
+    min-height: 450px;
+    height:auto;
+    margin:30px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    
+}
+
+@keyframes colorchange{ /* For Adding Animation */
+    0%{
+        color:indigo;
+    }
+    20%{
+        color:blue;
+    }
+    40%{
+        color:green;
+    }
+    60%{
+        color:yellow;
+    }
+    80%{
+        color:orange;
+    }
+    100%{
+        color:red;
+    }
+}

@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+body{
+    background-color: 	#CF9FFF;
+    
+}
+h1{
+    text-align: center;
+    color:#fff;
+}
+h2{
+   
+    font-size:2rem;
+    
+    
+}
+.container{
+    background-image: url("images/night_girl.jpg");
+    opacity:0.9;
+    height:450px;
+    width:450px;
+    margin:20px auto;
+    border:3px solid #fff;
+    border-radius: 50%;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; ;
+    
+    /* opacity:0.9; */
+}
+.content{
+    display:flex;
+    flex-direction:column;  
+    justify-content:center;
+    align-items: center;
+}
+h2{
+    font-size:2.5rem;
+    /* margin-left:-35px; */
+    margin-top:150px;
+    color:#fff;
+    font-weight: 400;
+
+
+}
+.list-items{
+    
+    display:flex;
+    margin-top:60px;
+    
+}
+select{
+font-size: 1.2rem;
+color:#fff;
+background-color: #CF9FFF;
+border-radius: 5px;
+border:#CF9FFF;
+outline:none;
+margin-right:10px;
+}
+
+.container .content.disable{
+    pointer-events: none;
+}
+
+button{
+    padding:5px;
+    margin-top:20px;
+    margin-right:10px;
+    background-color: #CF9FFF;
+    color:#fff;
+    font-size:1rem;
+    font-weight: 600;
+    outline: none;
+    cursor:pointer;
+    border-radius: 15px;
+    border:#CF9FFF;
+}
+button:hover{
+    background-color: blueviolet;
+    transform:scale(1.3,1.3) ;
+}
+select:hover{
+    background:blueviolet;
+    font-weight: 600;
+}
